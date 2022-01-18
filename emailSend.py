@@ -22,4 +22,4 @@ def email_alert(subject, body, to):
     server.quit()
 
 if __name__ == '__main__':
-    email_alert("Hey","Hello World","prathamarora333@gmail.com")
+    email_alert("Hey","Hello World","user@gmail.com")#the receiver's email goes here
