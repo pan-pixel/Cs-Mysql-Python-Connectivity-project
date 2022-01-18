@@ -7,7 +7,7 @@ import string
 import random
 import smtplib
 from email.message import EmailMessage
-password = "qWERT12YUIop" #your mysql password goes here
+password = "sql@123" #your mysql password goes here
 db = mysql.connector.connect(host='localhost',user="root",passwd=password)
 mycursor = db.cursor()
 mycursor.execute("CREATE DATABASE if not exists carpoll")
